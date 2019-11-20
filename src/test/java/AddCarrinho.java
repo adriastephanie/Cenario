@@ -14,7 +14,7 @@ public class AddCarrinho {
 	@Dado("^que estou acessando a aplicação$")
 	public void que_estou_acessando_a_aplicação() throws Throwable {
 	driver = new ChromeDriver();
-	driver.get("https://www.google.com");
+	driver.get("https://www.magazineluiza.com.br");
 	}
 	
 	// informar produto no campo de busca
